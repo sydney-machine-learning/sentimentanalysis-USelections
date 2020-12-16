@@ -1,6 +1,15 @@
 # Sentiment Analysis - US Elections 2020
 
-Sentiment Analysis US 2020 elections with LSTM and GNN
+Since the 2020 US election has happened on the 3rd November 2020 and the resulting impact to the world will no doubt be large, so we have planned to do sentiment analysis for US 2020 elections with LSTM and GNN! 
 
-## Some important links
+## Dataset:
 - [Data set](https://drive.google.com/drive/folders/1LnNvtOUWsfOwG8-tqAWaGvle3mcP52KR?usp=sharing) (Oct 15th 2020 - Nov 8th 2020, 1.72M Tweets)
+
+## Refrences:
+- [UK General Election 2017: a Twitter Analysis](https://arxiv.org/abs/1706.02271)
+- [Location-based Sentiment Analyses and Visualization of Twitter Election Data](https://dl.acm.org/doi/fullHtml/10.1145/3339909)
+
+#### Inspirations
+- Can we detect if there are or were any attempts at manipulating the election.
+- Can we predict the election outcome of each state.
+- Can we predict the candidate from tweet text only.
