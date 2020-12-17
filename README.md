@@ -2,6 +2,8 @@
 
 Since the 2020 US election has happened on the 3rd November 2020 and the resulting impact to the world will no doubt be large, so we have planned to do sentiment analysis for US 2020 elections with LSTM and GNN! 
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sydney-machine-learning/sentimentanalysis-USelections/blob/main/main.ipynb)
+
 ## Dataset:
 - [Data set](https://drive.google.com/drive/folders/1LnNvtOUWsfOwG8-tqAWaGvle3mcP52KR?usp=sharing) (Oct 15th 2020 - Nov 8th 2020, 1.72M Tweets)
 
