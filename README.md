@@ -12,6 +12,7 @@ Since the 2020 US election has happened on the 3rd November 2020 and the resulti
 - [Location-based Sentiment Analyses and Visualization of Twitter Election Data](https://dl.acm.org/doi/fullHtml/10.1145/3339909)
 - [USA NOV.2020 ELECTION 20 MIL. TWEETS (WITH SENTIMENT AND PARTY NAME LABELS) DATASET](https://ieee-dataport.org/open-access/usa-nov2020-election-20-mil-tweets-sentiment-and-party-name-labels-dataset#files)
 - [PREDICTION OF USA NOVEMBER 2020 ELECTION RESULTS USING MULTIFACTOR TWITTER DATA ANALYSIS METHOD](https://arxiv.org/ftp/arxiv/papers/2010/2010.15938.pdf)
+- 	[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
 
 #### Inspirations
 
