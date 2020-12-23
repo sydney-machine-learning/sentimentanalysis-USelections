@@ -50,4 +50,4 @@ collected_at: Date and time tweet data was mined from twitter
 
 | Trump 	| Biden 	| US_Shape 	|
 |-------	|-------	|----------	|
-|   233    	|   14    	|   ![](assets/24Dec.png)       	|
+|   233    	|   14    	|  <img src="assets/24Dec.png" alt="drawing" width="400"/> 	|
