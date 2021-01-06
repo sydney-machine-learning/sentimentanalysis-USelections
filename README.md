@@ -46,8 +46,3 @@ state_code: State code parsed from user_location
 collected_at: Date and time tweet data was mined from twitter
 ```
 
-#### Results
-
-| Trump 	| Biden 	| US_Shape 	|
-|-------	|-------	|----------	|
-|   233    	|   14    	|  <img src="assets/24Dec.png" alt="drawing" width="400"/> 	|
