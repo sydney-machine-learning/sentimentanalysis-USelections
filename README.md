@@ -1,8 +1,14 @@
 # Sentiment Analysis - US Elections 2020
 
-Since the 2020 US election has happened on the 3rd November 2020 and the resulting impact to the world will no doubt be large, so we have planned to do sentiment analysis for US 2020 elections with LSTM and GNN! 
-
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sydney-machine-learning/sentimentanalysis-USelections/blob/main/main.ipynb)
+
+## Abstract
+
+Social media has played a crucial role in shaping the worldview during election campaigns, which has been used as medium for political campaigns and also has been used for organising protests which led to riots. A study of sentiment analysis can give some indication about how the public will caste votes during elections. Recently, there has been tremendous progress in the area of language modeling with deep learning via long short-term memory (LSTM) models and variants known as bidirectional
+encoder representations from transformers (BERT). Motivated by these innovations, we    develop a framework to  model the US general  elections. 
+In this paper,  we use BERT language model for Twitter sentiment analysis leading to the  US 2020 presidential elections. We investigate if sentiment analysis can provide an indication of the results outcome using canonical LSTM and BERT language  models.
+
+![Framework](https://raw.githubusercontent.com/sydney-machine-learning/sentimentanalysis-USelections/main/assets/Framework2.png)
 
 ## Dataset:
 - [Data set](https://drive.google.com/drive/folders/1LnNvtOUWsfOwG8-tqAWaGvle3mcP52KR?usp=sharing) (Oct 15th 2020 - Nov 8th 2020, 1.72M Tweets)
