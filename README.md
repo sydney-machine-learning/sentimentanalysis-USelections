@@ -1,4 +1,4 @@
-# Biden vs Trump: Modelling US general electionsusing BERT language model
+# Biden vs Trump: Modelling US general elections using BERT language model
 
 ## Abstract
 
