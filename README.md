@@ -1,4 +1,4 @@
-# Sentiment Analysis - US Elections 2020
+# Biden vs Trump: Modelling US general electionsusing BERT language model
 
 ## Abstract
 
@@ -66,10 +66,16 @@ In this figure (Panel a) BERT for Trump dataset, we notice that in state of Mont
 | LSTM: Trump state-wise average polarity ![LSTM: Trump state-wise average polarity](https://raw.githubusercontent.com/sydney-machine-learning/sentimentanalysis-USelections/main/assets/trump-ploty.png)  | LSTM:Biden state-wise average polarity ![LSTM:Biden state-wise average polarity](https://raw.githubusercontent.com/sydney-machine-learning/sentimentanalysis-USelections/main/assets/biden-ploty.png)  |
 
 #### State wise results
-This figure shows the prediction by giving the percentage of tweets by positive, neutral, and negative sentiments for respective candidates using BERT and LSTM models.  In the case of BERT, we observe that the both candidates had similar level ofneutral tweets and positive tweets, with lower number of negative tweets where Biden had more negative tweets than Trump.In the case of the LSTM model, we see that the number of negative and positive tweets is similar but there is a large influxof neutral tweets which is almost double when compared with the BERT model. These predictions show model bias whichcan be due to the model architecture and also due to the information that was already present in the pre-trained BERT model.We can quantify these predictions only by comparison with the actual election results.
+The results from BERT model in this Figure shows that sentiments analysis via Twitter can provide a good framework formodelling election results. If we compare the BERT model results (Panel a) with actual results (Panel d), we find that BERTmodel has been very promising in distinguishing the Trump and Biden states along with some of the contentious states. Wenote that the LSTM model could not fully capture the situation due to large number of neutral sentiments (Figure 7 - Panel b),and hence it has performed poorly in Figure 9 (Panel b) when compared with actual results (Panel d). There are a number offactors that needs to be considered for making a truthful prediction. While social media such as Twitter can give insights ofhow people vote, it must be noted that due to extreme viewpoints, a large percentage of voters do not express themselves insocial media. The factors such as distribution of tweets in terms of count, language, location plays a vital role which is evident from our results. 
 |   BERT model predictions ![BERT](https://raw.githubusercontent.com/sydney-machine-learning/sentimentanalysis-USelections/main/assets/newB_Bert.png)  |   LSTM model predictions ![LSTM](https://raw.githubusercontent.com/sydney-machine-learning/sentimentanalysis-USelections/main/assets/newB_Lstm.png)  |
 |:-:|:-:|
 |  Major Swing States, 11th Nov 2020 ![Swing](https://raw.githubusercontent.com/sydney-machine-learning/sentimentanalysis-USelections/main/assets/plotly_Swing2.png)  |    Actual Results, 15th Dec 2020 ![Final Result](https://raw.githubusercontent.com/sydney-machine-learning/sentimentanalysis-USelections/main/assets/plotly_final3.png) |
+
+#### Fraction of tweets by polarity
+This figure shows the prediction by giving the percentage of tweets by positive, neutral, and negative sentiments for respectivecandidates using BERT and LSTM models.  In the case of BERT, we observe that the both candidates had similar level ofneutral tweets and positive tweets, with lower number of negative tweets where Biden had more negative tweets than Trump.In the case of the LSTM model, we see that the number of negative and positive tweets is similar but there is a large influxof neutral tweets which is almost double when compared with the BERT model. These predictions show model bias whichcan be due to the model architecture and also due to the information that was already present in the pre-trained BERT model.We can quantify these predictions only by comparison with the actual election results, which is done later.
+
+| BERT ![BERT](https://raw.githubusercontent.com/sydney-machine-learning/sentimentanalysis-USelections/main/assets/DisBERT.png)  | LSTM ![LSTM](https://raw.githubusercontent.com/sydney-machine-learning/sentimentanalysis-USelections/main/assets/DisLSTM.png) |
+|:-:|:-:|
 
 ## Refrences:
 - [UK General Election 2017: a Twitter Analysis](https://arxiv.org/abs/1706.02271)
@@ -78,12 +84,6 @@ This figure shows the prediction by giving the percentage of tweets by positive,
 - [PREDICTION OF USA NOVEMBER 2020 ELECTION RESULTS USING MULTIFACTOR TWITTER DATA ANALYSIS METHOD](https://arxiv.org/ftp/arxiv/papers/2010/2010.15938.pdf)
 - 	[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
 - [LSTM vs BERT](https://towardsdatascience.com/lstm-vs-bert-a-step-by-step-guide-for-tweet-sentiment-analysis-ced697948c47)
-
-#### Inspirations
-
-- Can we predict the election outcome of each state.
-- Can we predict the candidate from tweet text only.
-- Can we detect if there are or were any attempts at manipulating the election.
 
 
 
