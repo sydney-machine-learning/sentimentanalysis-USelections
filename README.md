@@ -91,7 +91,7 @@ This figure shows the prediction by giving the percentage of tweets by positive,
 ## Contact
 
 - **Rohitash Chandra**: [Website](https://rohitash-chandra.github.io/) Email: rohitash.chandra@unsw.edu.au
-- **Ritij Saini**: [Website](ritizsaini.github.io) Email: ritizsaini@iitb.ac.in
+- **Ritij Saini**: [Website](https://ritizsaini.github.io/) Email: ritizsaini@iitb.ac.in
 
 
 ## License
