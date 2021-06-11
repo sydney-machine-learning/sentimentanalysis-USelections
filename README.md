@@ -2,6 +2,7 @@
 
 > In this ReadMe we'll try to summarize all the results that we have obtained throughout the process of our research
 
+
 ## About The Project
 
 Social media has played a crucial role in shaping the worldview during election campaigns. It has been used as medium for political campaigns and tool for organising protests, some of which have been peaceful and while others led to riots. There has been some research that indicates that  understanding  user  behaviour particular in terms of sentiments expressed  during elections can provide some indication of election outcome.  Recently, there has been tremendous progress in the area of language modeling with deep learning via long short-term memory (LSTM) models and variants known as bidirectional
@@ -10,7 +11,7 @@ In this paper,  we use BERT language model for Twitter sentiment analysis leadin
 
 ![Framework](https://raw.githubusercontent.com/sydney-machine-learning/sentimentanalysis-USelections/main/assets/Framework2.png)
 
-## Dataset & Saved models:
+## Dataset & Saved models
 - [Data set](https://drive.google.com/drive/folders/1LnNvtOUWsfOwG8-tqAWaGvle3mcP52KR?usp=sharing) (Oct 15th 2020 - Nov 8th 2020, 1.72M Tweets)
 
 #### Description
@@ -87,14 +88,16 @@ This figure shows the prediction by giving the percentage of tweets by positive,
 - 	[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
 - [LSTM vs BERT](https://towardsdatascience.com/lstm-vs-bert-a-step-by-step-guide-for-tweet-sentiment-analysis-ced697948c47)
 
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
 ## Contact
 
 - **Rohitash Chandra**: [Website](https://rohitash-chandra.github.io/) Email: rohitash.chandra@unsw.edu.au
 - **Ritij Saini**: [Website](ritizsaini.github.io) Email: ritizsaini@iitb.ac.in
+
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
 
 
 
